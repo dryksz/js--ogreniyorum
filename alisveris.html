@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <link rel ="stylesheet" href="stil.css">
+</head>
+<body>
+    <div>
+        <h1>Alışveriş Listesi</h1>
+        <img name="slide" width="500" height="300">
+    </div>
+      <script src="java.js"></script>
+      
+    <input type="text" name="" id="urun"><button id="ekle">Ürün Ekle</button><br>
+
+    <ul id="liste">
+    </ul>
+    <script>
+        const urun =document.querySelector("#urun");
+        const ekle =document.querySelector("#ekle");
+        const liste =document.querySelector("#liste");
+    
+        ekle.onclick=function(){
+            let li=document.createElement("li");
+            li.textContent=urun.value;
+ 
+            liste.appendChild(li);
+ 
+            urun.value="";
+            urun.focus();
+        }
+    </script>
+    
+</body>
+</html>

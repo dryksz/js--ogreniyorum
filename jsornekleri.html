@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head></head>
+  <link rel ="stylesheet" href="stil.css">
+</head>
+<body>
+  <div id="sayfa">
+    <label>Ad:</label>    <input type="text"  id="ad">
+    <label>Soyad:</label> <input type="text"  id="soyad">
+    <label>Yaş:</label>   <input type="number"  id="yas">
+    <label>TC No:</label> <input type ="number" id="tcno">
+    <label>Tel No:</label> <input type="number" id="telno">
+    <label>E mail:</label> <input type="email" id="email">
+    <label>Şifre</label> <input type ="password" id="sifre">
+
+    <button id="ekle">Tabloya Ekle</button>
+  <table id="liste">
+      <tr>
+        <th>Ad</th>
+        <th>Soyad</th>
+        <th>Yaş</th>
+        <th>TC No</th>
+        <th>Tel No</th>
+        <th>E mail</th>
+        <th>Şifre</th>
+      </tr>
+  </table>
+  </div>
+    
+ 
+  <script>
+    const ad=document.querySelector("#ad");
+    const soyad=document.querySelector("#soyad");
+    const yas=document.querySelector("#yas");
+    const tcno=document.querySelector("#tcno");
+    const telno=document.querySelector("#telno");
+    const email=document.querySelector("#email");
+    const sifre=document.querySelector("#sifre");
+    const ekle=document.querySelector("#ekle");//tıklama olayı eklenecek
+    const liste=document.querySelector("#liste");
+
+   
+ 
+ 
+    ekle.onclick=function(){ 
+       
+   
+      //butona tıklanınca çalıştırılacak
+      
+      //td elementlerini oluşturuyoruz
+      let tAd=document.createElement("td");
+      let tSoyad=document.createElement("td");
+      let tYas=document.createElement("td");
+      let ttcno=document.createElement("td");
+      let ttelno=document.createElement("td");
+      let temail=document.createElement("td");
+      let tsifre=document.createElement("td");
+      
+      tAd.textContent=ad.value;//textboxtan değeri okuyup aktarıyoruz.
+      tSoyad.textContent=soyad.value;//textboxtan değeri okuyup aktarıyoruz.
+      tYas.textContent=yas.value;//textboxtan değeri okuyup aktarıyoruz.
+      ttcno.textContent=tcno.value;//textboxtan değeri okuyup aktarıyoruz.
+      ttelno.textContent=telno.value;//textboxtan değeri okuyup aktarıyoruz.
+      temail.textContent=email.value;//textboxtan değeri okuyup aktarıyoruz.
+      tsifre.textContent=sifre.value;//textboxtan değeri okuyup aktarıyoruz.
+
+    
+
+      //tr elementi oluşturuyoruz
+      let tr=document.createElement("tr");
+
+     
+      //tdleri tr içine ekliyoruz
+      tr.appendChild(tAd);
+      tr.appendChild(tSoyad);
+      tr.appendChild(tYas);
+      tr.appendChild(ttcno);
+      tr.appendChild(ttelno);
+      tr.appendChild(temail);
+      tr.appendChild(tsifre);
+ 
+      //tr elementini liste (tablo) içine ekliyoruz
+      liste.appendChild(tr);
+
+      
+   
+ 
+      //nenelerin için eklemeden sonra temizleyelim
+      ad.value="";
+      soyad.value="";
+      yas.value="";
+      tcno.value="";
+      telno.value="";
+      email.value="";
+      sifre.value="";
+      
+ 
+      //temizlemeden sonra ad içine odaklansın
+      ad.focus();
+    }
+   
+
+  </script>
+  
+</body>
+</html>

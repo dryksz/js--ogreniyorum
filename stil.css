@@ -1,0 +1,196 @@
+
+.giris{width: 1500px;  height: 930px ;
+        background-color: lightblue;
+        background-image: url(image/arkaplan.jpg);
+        background-repeat: no-repeat ;background-position: auto; 
+        color:#00008b;  font-size: xx-large; 
+        text-align: center;margin:0px auto}
+
+    .logo{ width:200px; height:100px; float:left; background:url(image/logo.jpg); background-repeat: no-repeat}
+
+    .baslık{width:1500px; height: 95px; 
+        background-color:lightblue;
+        color: white;font:bold 10px tahoma; text-align: center; 
+        padding: 50px auto ;margin:15px auto;background-image: url(image/birinci.png);
+    background-repeat: no-repeat; background-position: center}
+
+    .html{width:260px; height: 30px; 
+        background-color:rgb(150, 175, 199); 
+        font:bold 14px tahoma; text-align:left; 
+        padding: 0;margin :10px 0 0 0; margin: 5px auto}
+    .html ul {margin:0; padding: 0; list-style:none}
+    .html ul li {position: relative;}
+    .html ul li a {display:block; width:250px; background-color: lightblue;
+        color: blue;font:9 px tahoma; text-decoration:none ;padding: 9px 5px ; border: 1px solid burlywood }
+    .html ul li a:hover{color:cadetblue; background-color: chartreuse;}
+    .html ul li ul {display:none;position: absolute; left:262px; top:0}
+    .html ul li:hover ul {display: block}
+        
+    .jsornekleri{width:260px; height: 30px; 
+        padding: 0;margin: 5px auto;
+        background-color: rgb(150, 175, 199); 
+       font:bold 14px tahoma;text-align: left}
+       .jsornekleri ul {margin:0; padding: 0; list-style:none}
+   .jsornekleri ul li {position: relative;}
+   .jsornekleri ul li a {display:block; width:250px; background-color: lightblue;
+       color: blue;font:9 px tahoma; text-decoration:none ;padding: 9px 5px ; border: 1px solid burlywood }
+   .jsornekleri ul li a:hover{color:cadetblue; background-color: chartreuse;}
+   .jsornekleri ul li ul {display:none;position: absolute; left:262px; top:0}
+   .jsornekleri ul li:hover ul {display: block}
+
+    .css{width:260px; height: 30px; 
+         padding: 0;margin: 5px auto;
+         background-color: rgb(150, 175, 199); 
+        font:bold 14px tahoma;text-align: left}
+        .css ul {margin:0; padding: 0; list-style:none}
+    .css ul li {position: relative;}
+    .css ul li a {display:block; width:250px; background-color: lightblue;
+        color: blue;font:9 px tahoma; text-decoration:none ;padding: 9px 5px ; border: 1px solid burlywood }
+    .css ul li a:hover{color:cadetblue; background-color: chartreuse;}
+    .css ul li ul {display:none;position: absolute; left:262px; top:0}
+    .css ul li:hover ul {display: block}
+
+    .js{width:260px; height: 30px; 
+        background-color: rgb(150, 175, 199) ;
+        color: white;font:bold 14px tahoma; text-align: left;
+        padding:  0; margin: 5px auto}
+    .js ul {margin:0; padding: 0; list-style:none}
+    .js ul li {position: relative}
+    .js ul li a {display:block; width:250px; background-color: lightblue;
+        color: blue;font:9 px tahoma; text-decoration:none ;padding: 9px 5px ; border: 1px solid burlywood }
+    .js ul li a:hover{color:cadetblue; background-color: chartreuse;}
+    .js ul li ul {display:none;position:absolute; left:262px; top:0}
+    .js ul li:hover ul {display: block}
+
+    .nedir{width:800px; height: 100px;
+            color: white;font:bold 14px tahoma; text-align: left;
+            padding: 10px 10px 10px 10px; margin: 55px 550px auto} 
+            
+     .syntax{width:930px; height: 50px;
+        color:white;font:bold 12px tahoma; text-align: left;
+        padding: 10px 10px 10px 10px; margin: 10px 550px auto}
+
+    .operator{width:930px; height: 50px;
+            color: white;font:bold 12px tahoma; text-align: left;
+            padding: 10px 10px 10px 10px; margin: 10px 550px auto}
+.operator1{width: 1300px;height: 1000px; background-image: url("image/operator.png");
+        background-repeat: no-repeat;background-position: left}
+    .aritmetik{width:930px; height: 50px;
+                    color: white;font:bold 14px tahoma; text-align: left;
+                    padding: 10px 10px 10px 10px; margin: 10px 550px auto}
+
+    .veritipi{width:930px; height: 50px;
+                        color: white;font:bold 10px tahoma; text-align: left;
+                        padding: 10px 10px 10px 10px; margin: 10px 550px auto}
+        
+    .fonk{width:930px; height: 50px;
+                    color: white;font:bold 14px tahoma; text-align: left;
+                    padding: 10px 10px 10px 10px; margin: 10px 550px auto}
+    .olaylar{width:930px; height: 50px;
+            color: white;font:bold 14px tahoma; text-align: left;
+            padding: 10px 10px 10px 10px; margin: 10px 550px auto}
+    .islem{width:930px; height: 50px;
+                color: white;font:bold 14px tahoma; text-align: left;
+                padding: 10px 10px 10px 10px; margin: 10px 550px auto}
+
+    .kosul{width:930px; height: 50px;
+                    color: white;font:bold 14px tahoma; text-align: left;
+                    padding: 10px 10px 10px 10px; margin: 10px 550px auto}
+    .dongu{width:930px; height: 50px;
+                        color: white;font:bold 14px tahoma; text-align: left;
+                        padding: 10px 10px 10px 10px; margin: 10px 550px auto}
+    .donusum{width:930px; height: 50px;
+                            color: white;font:bold 14px tahoma; text-align: left;
+                            padding: 10px 10px 10px 10px; margin: 10px 550px auto}
+    .mimari{width:930px; height: 50px;
+                                color: white;font:bold 14px tahoma; text-align: left;
+                                padding: 10px 10px 10px 10px; margin: 10px 550px auto}
+
+    .ileri{ width:120px; height: 30px; 
+        background-color:brown;color:red;
+        font:bold 14px tahoma; text-align:left; 
+        padding: 0; margin: 350px 1350px}
+
+        
+    .degisken{width:800px; height: 100px;
+            color: white;font:bold 14px tahoma; text-align: left;
+            padding: 10px 10px 10px 10px; margin: 55px 550px auto}
+
+    .degisken1{width:800px; height: 100px;
+                color: white;font:bold 14px tahoma; text-align: left;
+                padding: 10px 10px 10px 10px; margin: 45px 0px auto}
+    
+
+               
+            
+        
+
+    .a{width: 1300px;height: 300px; background-image: url("image/d1.png");
+                background-repeat: no-repeat;margin:0 0px 0px 0px}
+
+    .b{width: 1300px;height: 300px; background-image: url("image/d2.png");
+                background-repeat: no-repeat; margin:0px 30px 100px 860px}
+
+    .c{width: 1300px;height: 300px; background-image: url("image/d3.png");
+                background-repeat: no-repeat;margin: 10px 30px 0px 30px}
+
+    .d{width: 1300px;height: 300px; background-image: url("image/d4.png");
+                background-repeat: no-repeat; margin: 10px 30px 0px 750px}
+
+    .e{width: 1550px;height: 1000px; background-image: url("image/d5.png");
+                    background-repeat: no-repeat;margin:0 30px 0px 30px}
+
+                    .result {color:red}
+                    #sayfa{
+                        width: 500px;
+                        margin:auto;
+                        background: #97bb6d;
+                        padding:20px;
+                      }
+                      label{
+                        display:block;
+                        margin-top:5px;
+                      }
+                      input{
+                        width: 200px;
+                        height: 25px;
+                        font-size:1.2em;
+                      }
+                      button{
+                        border:none;
+                        display:block;
+                        margin-top:5px;
+                        width: 204px;
+                        height: 50px;
+                        text-align: center;
+                        font-size:1.2em;
+                      }
+                      table{
+                        background: #71ca48;
+                        margin:5px;
+                        width: 100%;
+                        color:rgb(218, 61, 61);
+                      }
+                      td,th{
+                        border:1px solid rgb(0, 0, 0);
+                        border-spacing: 0px;
+                        margin: 0px;
+                      }
+                      input{
+                        padding:8px 30px;
+                        margin-right:10px;
+                    }
+                    button{
+                        background: #5f27cd;
+                        color:#fff;
+                        border:none;
+                        padding:10px 30px;
+                    }
+                     /* .alisveris{width: 1000px;  height: 700px ;
+                        background-color: lightblue;
+                        background-image: url(image/sepet.jpg);
+                        background-repeat: no-repeat ;background-position: auto; 
+                        color:#00008b;  font-size: xx-large; 
+                        text-align: center;margin:0px auto}
+                        */
+                        
